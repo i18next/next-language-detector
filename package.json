@@ -1,0 +1,86 @@
+{
+  "name": "next-language-detector",
+  "version": "1.0.0",
+  "description": "This package helps to handle language detection in next.js when using static servers only.",
+  "keywords": [
+    "i18next",
+    "i18next-languageDetector",
+    "next",
+    "next.js",
+    "nextjs"
+  ],
+  "homepage": "https://github.com/adrai/next-language-detector",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrai/next-language-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrai/next-language-detector/issues"
+  },
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "browser": "./dist/umd/i18nextV4FormatConverter.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "default": "./dist/esm/index.js"
+    },
+    "./cjs": {
+      "default": "./dist/cjs/index.js"
+    },
+    "./esm": {
+      "default": "./dist/esm/index.js"
+    },
+    "./src": {
+      "default": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "lint:javascript": "eslint .",
+    "lint:typescript": "eslint -c .ts.eslintrc *.d.ts test/types/**/*.test-d.ts",
+    "lint": "npm run lint:javascript && npm run lint:typescript",
+    "build": "rm -rf dist && rollup -c && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
+    "test:typescript": "tsd",
+    "test": "npm run lint && mocha --colors --reporter spec --recursive test/*.js",
+    "test:all": "npm run test && npm run test:typescript",
+    "preversion": "npm run test && npm run build && git push",
+    "postversion": "git push && git push --tags"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "7.16.3",
+    "i18next-browser-languagedetector": "6.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/plugin-transform-runtime": "7.16.4",
+    "@babel/preset-env": "7.16.4",
+    "@types/mocha": "9.0.0",
+    "@typescript-eslint/eslint-plugin": "5.5.0",
+    "@typescript-eslint/parser": "5.5.0",
+    "babel-plugin-add-module-exports": "1.0.4",
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.2.0",
+    "eslint-plugin-require-path-exists": "1.1.9",
+    "eslint-plugin-standard": "5.0.0",
+    "mocha": "9.1.3",
+    "rollup": "2.60.2",
+    "rollup-plugin-babel": "4.4.0",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-terser": "7.0.2",
+    "should": "13.2.3",
+    "sinon": "12.0.1",
+    "tsd": "0.19.0",
+    "typescript": "4.5.2"
+  },
+  "tsd": {
+    "directory": "test/types"
+  }
+}
