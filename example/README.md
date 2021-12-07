@@ -12,6 +12,7 @@ You may have arrived here from the [NextJs](https://github.com/zeit/next.js) rep
 - **NextJs**, please visit the [website](https://nextjs.org/)
 - **locize** in combination with NextJs, please visit the [main README](https://github.com/locize/next-i18next-locize)
 
+**A step by step guide can be found in [this tutorial](https://coming-soon-link-here.com).**
 
 ## optional [locize](https://locize.com) usage (not mandatory)
 
