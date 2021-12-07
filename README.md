@@ -5,6 +5,10 @@
 
 This package helps to handle language detection in next.js when using static servers only.
 
+>Error: i18n support is not compatible with next export. See here for more info on deploying: https://nextjs.org/docs/deployment
+
+If this error message sounds familiar to you, this module may help.
+
 # Getting started
 
 Source can be loaded via [npm](https://www.npmjs.com/package/next-language-detector).
@@ -16,7 +20,9 @@ $ npm install next-language-detector
 
 ## Usage:
 
-**For a complete useage example please have a look at [this tutorial](https://coming-soon-link-here.com)**
+**A complete example can be found [here](tree/master/example)**
+
+**And for a step by step guide please have a look at [this tutorial](https://coming-soon-link-here.com)**
 
 ```js
 // lngDetector.js

@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "postbuild": "npm run 404",
+    "404": "cp out/404/index.html out/404.html",
+    "server": "next start",
+    "start": "npm run dev",
+    "lint": "next lint",
+    "serve": "http-server out -p 8080"
+  },
+  "dependencies": {
+    "next": "12.0.7",
+    "next-i18next": "10.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-next": "12.0.4"
+  }
+}

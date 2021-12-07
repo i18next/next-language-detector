@@ -8,4 +8,5 @@ README.md
 .eslintignore
 test
 scripts
+example
 examples
