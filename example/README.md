@@ -16,3 +16,18 @@ You may have arrived here from the [NextJs](https://github.com/zeit/next.js) rep
 ## optional [locize](https://locize.com) usage (not mandatory)
 
 Before "deploying" your app, you can run the [downloadLocales script](https://github.com/adrai/next-language-detector/blob/main/example/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
+
+
+## Verify yourself
+
+To prove that this works, pull this example to your local machine and run:
+
+```sh
+npm i
+npm run build
+npm run serve
+```
+
+and open your browser at http://localhost:8080
+
+You can now deploy the out folder to any static webserver, like [GitHub pages](https://pages.github.com).
