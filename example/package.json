@@ -11,7 +11,8 @@
     "start": "npm run dev",
     "lint": "next lint",
     "test": "npm run lint",
-    "serve": "http-server out -p 8080"
+    "serve": "http-server out -p 8080",
+    "downloadLocales": "locize download --project-id=0842ada9-1d1d-4d48-ab27-08f6a132f558 --ver=latest --clean=true --path=./public/locales"
   },
   "dependencies": {
     "next": "12.0.7",
@@ -19,7 +20,8 @@
     "next-language-detector": "1.0.0"
   },
   "devDependencies": {
-    "eslint-config-next": "12.0.4",
-    "http-server": "14.0.0"
+    "eslint-config-next": "12.0.7",
+    "http-server": "14.0.0",
+    "locize-cli": "7.6.17"
   }
 }
