@@ -12,7 +12,7 @@ You may have arrived here from the [Next.js](https://github.com/zeit/next.js) re
 - **Next.js**, please visit the [website](https://nextjs.org/)
 - **locize** in combination with Next.js, please visit the [main README](https://github.com/locize/next-i18next-locize)
 
-**A step by step guide can be found in [this tutorial](https://coming-soon-link-here.com).**
+**A step by step guide can be found in [this tutorial](https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd).**
 
 ## optional [locize](https://locize.com) usage (not mandatory)
 
