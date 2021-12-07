@@ -20,9 +20,9 @@ $ npm install next-language-detector
 
 ## Usage:
 
-**A complete example can be found [here](tree/master/example)**
+**A complete example can be found [here](tree/main/example).**
 
-**And for a step by step guide please have a look at [this tutorial](https://coming-soon-link-here.com)**
+**And for a step by step guide please have a look at [this tutorial](https://coming-soon-link-here.com).**
 
 ```js
 // lngDetector.js
