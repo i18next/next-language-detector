@@ -1,4 +1,4 @@
 {
   "change-locale": "Cambia lingua",
-  "description": "Dies ist eine Nicht-Seitenkomponente, die einen eigenen Namespace erfordert"
+  "description": "Questo è un componente non di pagina che richiede il proprio namespace"
 }

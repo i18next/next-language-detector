@@ -1,13 +1,15 @@
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
+import LanguageSwitchLink from './LanguageSwitchLink'
 import pkg from 'next-i18next/package.json'
+import pkgLD from 'next-language-detector/package.json'
 
 import i18nextConfig from '../next-i18next.config';
 
 export const Footer = () => {
   const router = useRouter()
   const { t } = useTranslation('footer')
+  const currentLocale = router.query.locale || i18nextConfig.i18n.defaultLocale;
 
   return (
     <footer>
@@ -17,23 +19,22 @@ export const Footer = () => {
       <p>
         <span style={{ lineHeight: '4.65em', fontSize: 'small' }}>{t('change-locale')}</span>
         {i18nextConfig.i18n.locales.map((locale) => {
-          if (locale === router.locale) return null;
+          if (locale === currentLocale) return null;
           return (
-            <Link
-              href='/'
+            <LanguageSwitchLink
               locale={locale}
               key={locale}
-            >
-              <button style={{ fontSize: 'small' }}>
-                {locale}
-              </button>
-            </Link>
+            />
           );
         })}
       </p>
       <p>
         next-i18next v
         {pkg.version}
+      </p>
+      <p>
+        next-language-detector v
+        {pkgLD.version}
       </p>
     </footer>
   )

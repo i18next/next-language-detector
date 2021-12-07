@@ -13,7 +13,7 @@ export const Header = ({ heading, title }) => (
       <link data-react-helmet='true' rel='icon' href='https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-L9iS6Wm2hynS5H9Gj7j%2Favatar.png?generation=1523462254548780&amp;alt=media' />
     </Head>
     <h2>
-      next-i18next
+      next-language-detector example
       <hr />
     </h2>
     <h1>
@@ -21,7 +21,7 @@ export const Header = ({ heading, title }) => (
     </h1>
     <a
       className='github'
-      href='//github.com/isaachinman/next-i18next'
+      href='//github.com/adrai/next-language-detector'
     >
       <i className='typcn typcn-social-github-circular' />
     </a>

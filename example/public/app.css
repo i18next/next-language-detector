@@ -73,6 +73,10 @@ button:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
 }
 
+a button {
+  color: #000
+}
+
 main {
   display: flex;
   flex-direction: column;
