@@ -13,6 +13,6 @@ You may have arrived here from the [NextJs](https://github.com/zeit/next.js) rep
 - **locize** in combination with NextJs, please visit the [main README](https://github.com/locize/next-i18next-locize)
 
 
-## optional locize usage (not mandatory)
+## optional [locize](https://locize.com) usage (not mandatory)
 
 Before "deploying" your app, you can run the [downloadLocales script](https://github.com/adrai/next-language-detector/blob/main/example/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
