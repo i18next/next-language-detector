@@ -3,7 +3,7 @@
 [![Actions](https://github.com/adrai/next-language-detector/workflows/node/badge.svg)](https://github.com/adrai/next-language-detector/actions?query=workflow%3Anode)
 [![npm version](https://img.shields.io/npm/v/next-language-detector.svg?style=flat-square)](https://www.npmjs.com/package/next-language-detector)
 
-This package helps to handle language detection in next.js when using static servers only.
+This package helps to handle language detection in Next.js when using static servers only.
 
 >Error: i18n support is not compatible with next export. See here for more info on deploying: https://nextjs.org/docs/deployment
 
