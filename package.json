@@ -1,6 +1,6 @@
 {
   "name": "next-language-detector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package helps to handle language detection in next.js when using static servers only.",
   "keywords": [
     "i18next",
