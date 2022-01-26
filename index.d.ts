@@ -65,7 +65,7 @@ interface InitOptions extends DetectorOptions {
 }
 
 interface LanguageDetector {
-  cache?(lng: string, options: DetectorOptions): void;
+  cache?(lng: string, caches?: string[]): void;
   detect(detectionOrders?: string | string[]): string | undefined;
 }
 export default function LanguageDetector(options: InitOptions): LanguageDetector
