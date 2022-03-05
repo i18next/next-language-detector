@@ -21,10 +21,15 @@ export async function getI18nProps(ctx, ns = ['common']) {
   return props
 }
 
-export function makeStaticProps(ns = {}) {
+export function makeStaticProps(ns = [], opt = {}) {
   return async function getStaticProps(ctx) {
+    const props = await getI18nProps(ctx, ns)
+    if (opt.emptyI18nStoreStore) {
+      // let the client fetch the translations
+      props._nextI18Next.initialI18nStore = null
+    }
     return {
-      props: await getI18nProps(ctx, ns)
+      props
     }
   }
 }

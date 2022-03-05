@@ -12,11 +12,11 @@ You may have arrived here from the [Next.js](https://github.com/zeit/next.js) re
 - **Next.js**, please visit the [website](https://nextjs.org/)
 - **locize** in combination with Next.js, please visit the [main README](https://github.com/locize/next-i18next-locize)
 
-**A step by step guide can be found in [this tutorial](https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd).**
+**A step by step guide can be found in [this tutorial](https://locize.com/blog/next-i18n-static/).**
 
 ## optional [locize](https://locize.com) usage (not mandatory)
 
-Before "deploying" your app, you can run the [downloadLocales script](https://github.com/adrai/next-language-detector/blob/main/example/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
+Before "deploying" your app, you can run the [downloadLocales script](https://github.com/adrai/next-language-detector/blob/main/examples/basic/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
 
 
 ## Verify yourself

@@ -7,18 +7,18 @@ import { Footer } from '../../components/Footer'
 import Link from '../../components/Link'
 
 const Homepage = () => {
-  const { t } = useTranslation('common')
+  const { t } = useTranslation(['404', 'common', 'footer'])
 
   return (
     <>
       <main>
         <Header heading={t('h1')} title={t('title')} />
         <div>
-          <Link href='/second-page'>
+          <Link href='/'>
             <button
               type='button'
             >
-              {t('to-second-page')}
+              {t('common:back-to-home')}
             </button>
           </Link>
         </div>
@@ -30,5 +30,5 @@ const Homepage = () => {
 
 export default Homepage
 
-const getStaticProps = makeStaticProps(['common', 'footer'])
+const getStaticProps = makeStaticProps(['404', 'common', 'footer'])
 export { getStaticPaths, getStaticProps }

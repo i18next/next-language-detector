@@ -7,7 +7,7 @@ import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
 
 const SecondPage = () => {
-  const { t } = useTranslation('second-page')
+  const { t } = useTranslation(['second-page', 'common', 'footer'])
 
   return (
     <>
