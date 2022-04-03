@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "extends": "next",
+  "rules": {
+    "react/prop-types": 0,
+    "react/no-unescaped-entities": 0
+  }
+}
