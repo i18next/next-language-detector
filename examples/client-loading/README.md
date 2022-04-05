@@ -4,7 +4,7 @@
 
 This is a simple example of how to use [next-i18next](https://github.com/isaachinman/next-i18next) with [Next.js](https://github.com/zeit/next.js) for a complete static website and the use of [locize](https://locize.com) to get translations up and running quickly and easily.
 
-"e will use the [i18next-locize-backend plugin](https://github.com/locize/i18next-locize-backend) only on client side.
+We will use the [i18next-locize-backend plugin](https://github.com/locize/i18next-locize-backend) only on client side.
 
 Instead on server side we'll "bundle" the translations first.
 See [downloadLocales script in package.json](https://github.com/adrai/next-language-detector/blob/main/examples/client-loading/package.json#L15) and the bundle them together with our generated website.
