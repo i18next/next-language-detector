@@ -14,7 +14,7 @@ export const Header = ({ heading, title }) => (
     </h1>
     <a
       className='github'
-      href='//github.com/adrai/next-language-detector'
+      href='//github.com/i18next/next-language-detector'
     >
       <i className='typcn typcn-social-github-circular' />
     </a>

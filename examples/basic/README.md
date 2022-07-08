@@ -1,4 +1,4 @@
-# Static internationalized (i18n) next.js website with the help of [next-i18next](https://github.com/i18next/next-i18next) and [next-language-detector](https://github.com/adrai/next-language-detector)
+# Static internationalized (i18n) next.js website with the help of [next-i18next](https://github.com/i18next/next-i18next) and [next-language-detector](https://github.com/i18next/next-language-detector)
 
 ## What is this?
 
@@ -16,7 +16,7 @@ You may have arrived here from the [Next.js](https://github.com/zeit/next.js) re
 
 ## optional [locize](https://locize.com) usage (not mandatory)
 
-Before "deploying" your app, you can run the [downloadLocales script](https://github.com/adrai/next-language-detector/blob/main/examples/basic/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
+Before "deploying" your app, you can run the [downloadLocales script](https://github.com/i18next/next-language-detector/blob/main/examples/basic/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
 
 
 ## Verify yourself

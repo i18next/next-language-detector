@@ -1,4 +1,4 @@
-# Static internationalized (i18n) next.js website with the help of [next-i18next](https://github.com/i18next/next-i18next) and [next-language-detector](https://github.com/adrai/next-language-detector)
+# Static internationalized (i18n) next.js website with the help of [next-i18next](https://github.com/i18next/next-i18next) and [next-language-detector](https://github.com/i18next/next-language-detector)
 
 ## What is this?
 
@@ -7,9 +7,9 @@ This is a simple example of how to use [next-i18next](https://github.com/i18next
 We will use the [i18next-locize-backend plugin](https://github.com/locize/i18next-locize-backend) only on client side.
 
 Instead on server side we'll "bundle" the translations first.
-See [downloadLocales script in package.json](https://github.com/adrai/next-language-detector/blob/main/examples/client-loading/package.json#L15) and the bundle them together with our generated website.
+See [downloadLocales script in package.json](https://github.com/i18next/next-language-detector/blob/main/examples/client-loading/package.json#L15) and the bundle them together with our generated website.
 
-Before "deploying" your app, you can run the [downloadLocales script](https://github.com/adrai/next-language-detector/blob/main/examples/client-loading/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
+Before "deploying" your app, you can run the [downloadLocales script](https://github.com/i18next/next-language-detector/blob/main/examples/client-loading/package.json#L15) (or similar), which will use the [cli](https://github.com/locize/locize-cli) to download the translations from locize into the appropriate folder next-i18next is looking in to (i.e. ./public/locales).
 This way the translations are bundled in your app and on server side you will not generate any downloads to the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network) during runtime, but just on client side.
 
 ## For more info...

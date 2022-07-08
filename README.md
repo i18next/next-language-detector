@@ -1,6 +1,6 @@
 # Introduction
 
-[![Actions](https://github.com/adrai/next-language-detector/workflows/node/badge.svg)](https://github.com/adrai/next-language-detector/actions?query=workflow%3Anode)
+[![Actions](https://github.com/i18next/next-language-detector/workflows/node/badge.svg)](https://github.com/i18next/next-language-detector/actions?query=workflow%3Anode)
 [![npm version](https://img.shields.io/npm/v/next-language-detector.svg?style=flat-square)](https://www.npmjs.com/package/next-language-detector)
 
 This package helps to handle language detection in Next.js when using static servers only.
@@ -20,7 +20,7 @@ $ npm install next-language-detector
 
 ## Usage:
 
-**A complete example can be found [here](https://github.com/adrai/next-language-detector/tree/main/examples/basic).**
+**A complete example can be found [here](https://github.com/i18next/next-language-detector/tree/main/examples/basic).**
 
 **And for a step by step guide please have a look at [this tutorial](https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd).**
 

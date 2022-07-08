@@ -9,13 +9,13 @@
     "next.js",
     "nextjs"
   ],
-  "homepage": "https://github.com/adrai/next-language-detector",
+  "homepage": "https://github.com/i18next/next-language-detector",
   "repository": {
     "type": "git",
-    "url": "git@github.com:adrai/next-language-detector.git"
+    "url": "git@github.com:i18next/next-language-detector.git"
   },
   "bugs": {
-    "url": "https://github.com/adrai/next-language-detector/issues"
+    "url": "https://github.com/i18next/next-language-detector/issues"
   },
   "type": "module",
   "main": "./dist/cjs/index.js",
