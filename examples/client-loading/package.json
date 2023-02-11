@@ -17,14 +17,14 @@
   "dependencies": {
     "i18next-chained-backend": "4.2.0",
     "i18next-localstorage-backend": "4.1.0",
-    "i18next-locize-backend": "6.1.0",
-    "next": "13.0.6",
-    "next-i18next": "13.0.0",
+    "i18next-locize-backend": "6.2.1",
+    "next": "13.1.6",
+    "next-i18next": "13.1.5",
     "next-language-detector": "1.0.2"
   },
   "devDependencies": {
-    "eslint-config-next": "13.0.6",
+    "eslint-config-next": "13.1.6",
     "http-server": "14.1.1",
-    "locize-cli": "7.13.1"
+    "locize-cli": "7.13.2"
   }
 }
