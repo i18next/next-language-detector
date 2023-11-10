@@ -21,17 +21,23 @@
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "browser": "./dist/umd/i18nextNextLanguageDetector.js",
-  "types": "./index.d.ts",
+  "types": "./index.d.mts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
+      "types": {
+        "require": "./index.d.ts",
+        "import": "./index.d.mts"
+      },
       "require": "./dist/cjs/index.js",
       "default": "./dist/esm/index.js"
     },
     "./cjs": {
+      "types": "./index.d.ts",
       "default": "./dist/cjs/index.js"
     },
     "./esm": {
+      "types": "./index.d.mts",
       "default": "./dist/esm/index.js"
     },
     "./src": {
@@ -40,7 +46,7 @@
   },
   "scripts": {
     "lint:javascript": "eslint .",
-    "lint:typescript": "eslint -c .ts.eslintrc *.d.ts test/types/**/*.test-d.ts",
+    "lint:typescript": "eslint -c .ts.eslintrc *.d.ts *.d.mts test/types/**/*.test-d.ts",
     "lint": "npm run lint:javascript && npm run lint:typescript",
     "build": "rm -rf dist && rollup -c && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
     "test:typescript": "tsd",
@@ -52,7 +58,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "7.16.7",
-    "i18next-browser-languagedetector": "6.1.2"
+    "i18next-browser-languagedetector": "7.2.0"
   },
   "devDependencies": {
     "@babel/core": "7.16.7",
