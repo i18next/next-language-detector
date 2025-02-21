@@ -3,7 +3,7 @@ const ChainedBackend= require('i18next-chained-backend').default
 const LocalStorageBackend = require('i18next-localstorage-backend').default
 
 // If you've configured caching for your locize version, you may not need the i18next-localstorage-backend and i18next-chained-backend plugin.
-// https://docs.locize.com/more/caching
+// https://www.locize.com/docs/caching
 
 const isBrowser = typeof window !== 'undefined'
 
