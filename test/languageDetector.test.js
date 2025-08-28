@@ -54,7 +54,7 @@ describe('language detector', () => {
   })
 
   describe('fallbackLng', () => {
-    const ld = new LanguageDetector({ fallbackLng: 'fr' })
+    const ld = new LanguageDetector({ fallbackLng: 'fr', order: [] })
 
     const emulateLng = (l) => {
       global.window = {
