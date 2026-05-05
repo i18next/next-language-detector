@@ -22,7 +22,7 @@ $ npm install next-language-detector
 
 **A complete example can be found [here](https://github.com/i18next/next-language-detector/tree/main/examples/basic).**
 
-**And for a step by step guide please have a look at [this tutorial](https://locize.com/blog/next-i18n-static).**
+**And for a step by step guide please have a look at [this tutorial](https://www.locize.com/blog/next-i18n-static?utm_source=next_language_detector_readme&utm_medium=github&utm_campaign=readme).**
 
 ```js
 // lngDetector.js
